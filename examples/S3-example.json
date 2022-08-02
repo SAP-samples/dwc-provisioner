@@ -1,0 +1,33 @@
+{
+    "data": {
+        "businessName": "S3 Aerospace",
+        "name": "S3_Aerospace",
+        "description": "",
+        "credentialMode": "technicaluser",
+        "configuration": {
+            "ConnectionProperties": {
+                "configurations": {
+                    "endpoint": "s3.amazonaws.com",
+                    "protocol": "https",
+                    "rootPath": "/sap-ad-content"
+                }
+            },
+            "CredentialProperties": {
+                "credentials_mode": "technicaluser",
+                "credential": {
+                    "user": "AKIAUR5T3JXU2NKV2BEE",
+                    "password": "wgGABj9NcYZlMAPLsj9B0NIgU2rRINvpCTq2K4Bm"
+                }
+            },
+            "ConnectionFeatures": {
+                "features": {
+                    "dataflows": true
+                }
+            }
+        },
+        "typeId": "S3",
+        "capabilityHanaSdi": "false",
+        "capabilityDisDataflow": "true",
+        "capabilityModelTransfer": "false"
+    }
+}

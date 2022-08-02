@@ -1,0 +1,65 @@
+{
+  "data": {
+    "businessName": "HANA example",
+    "name": "HANA_example",
+    "description": "HANA Cloud database - user must exist.",
+    "credentialMode": "technicaluser",
+    "configuration": {
+      "ConnectionProperties": {
+        "configurations": {
+          "cdc_properties": {
+            "prefix": "DWCH3K46B_",
+            "enable_manageable_trigger_prefix": "false",
+            "conn_pool_size": "8",
+            "min_scan_interval": "0",
+            "max_scan_interval": "1",
+            "max_batch_size": "128",
+            "ddl_scan_interval": "10",
+            "batch_queue_size": "64",
+            "max_transaction_count": "1000",
+            "max_scan_size": "50000",
+            "statement_level_trigger": "false",
+            "record_pk_only": "false",
+            "shadow_table_type": "COLUMN",
+            "trigger_queue_type": "COLUMN",
+            "data_pattern_analysis": "true",
+            "eventual_consistency": {
+              "transmit_data_in_compaction": "false",
+              "enable_transaction_merge": "false"
+            }
+          },
+          "database": {
+            "category": "cloud",
+            "host": "bpo4428-70eb-4349-8a70-33e10f398f07.hana.prod-eu12.hanacloud.ondemand.com",
+            "port": "443",
+            "whitelist_table": "",
+            "schema": "",
+            "connection_options": "",
+            "version_in_load_table_dictionary": ""
+          },
+          "schema_alias_replacements": {
+            "schema_alias": "",
+            "schema_alias_replacement": ""
+          }
+        }
+      },
+      "CredentialProperties": {
+        "credentials_mode": "technicaluser",
+        "credential": {
+          "user": "HANA_USER",
+          "password": "Welcome01!"
+        }
+      },
+      "ConnectionFeatures": {
+        "features": {
+          "remoteTables": true,
+          "dataflows": true
+        }
+      }
+    },
+    "typeId": "HANA",
+    "capabilityHanaSdi": "true",
+    "capabilityDisDataflow": "true",
+    "capabilityModelTransfer": "false"
+  }
+}

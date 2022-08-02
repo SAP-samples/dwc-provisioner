@@ -1,0 +1,12 @@
+#!/bin/bash
+
+pythonCmd="python"
+
+if [ -x "$(command -v python3)" ]; then
+  pythonCmd=python3
+fi
+
+curPath=$(pwd)
+srcPath=${curPath}/src
+
+${pythonCmd} ${srcPath}/provisioner.py $*

@@ -1,0 +1,69 @@
+{
+    "data": {
+        "businessName": "BW/4 HANA",
+        "name": "BW4_HANA",
+        "description": "",
+        "location": {
+            "agentName": "SDC_GSA",
+            "location": "agent",
+            "connected": true
+        },
+        "credentialMode": "technicaluser",
+        "configuration": {
+            "ConnectionProperties": {
+                "ConnectionInfo": {
+                    "connectionType": "applicationServer",
+                    "host": "cib4h",
+                    "systemnumber": "00",
+                    "client": "800",
+                    "sysid": "",
+                    "langcode": "",
+                    "poolsize": "10",
+                    "connlimit": "100",
+                    "odpversion": "odp20",
+                    "cdcbatchsize": "1",
+                    "unicode": "true",
+                    "encoding": "",
+                    "sncMode": "0",
+                    "sncLib": "",
+                    "sncMyname": "",
+                    "sncPartnername": "",
+                    "sncSSO": "1",
+                    "sncQop": "",
+                    "gateway": {
+                        "cloud_connector": "false",
+                        "cloudConnectorLocation": "",
+                        "virtual_destination": "false",
+                        "virtualHost": "",
+                        "virtualPort": ""
+                    }
+                }
+            },
+            "CredentialProperties": {
+                "credentials_mode": "technicaluser",
+                "user": {
+                    "user": "smithjo",
+                    "password": "Welcome1"
+                }
+            },
+            "ConnectionFeatures": {
+                "features": {
+                    "remoteTables": true,
+                    "dpAgent": "SDC_GSA",
+                    "streaming": "false",
+                    "gwhost": "",
+                    "gwserv": "",
+                    "rfcdest": "",
+                    "batchsize": "1",
+                    "timeout": "600",
+                    "rfctrace": "false",
+                    "dataflows": true
+                }
+            }
+        },
+        "typeId": "SAPBW",
+        "capabilityHanaSdi": "true",
+        "capabilityDisDataflow": "true",
+        "capabilityModelTransfer": "false"
+    }
+}

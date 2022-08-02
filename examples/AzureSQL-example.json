@@ -1,0 +1,90 @@
+{
+  "data": {
+    "businessName": "Azure SQL",
+    "name": "Azure_SQL",
+    "description": "Example Azure SQL connection.",
+    "credentialMode": "technicaluser",
+    "configuration": {
+      "ConnectionProperties": {
+        "configurations": {
+          "generic": {
+            "pdb_dflt_column_repl": "true"
+          },
+          "data_type_coversion": {
+            "map_char_types_to_unicode": "false",
+            "map_time_to_timestamp": "false"
+          },
+          "database": {
+            "pds_always_on": "false",
+            "pds_server_name": "solexpdbserver.database.windows.net",
+            "pds_port_number": "1433",
+            "pds_aglistener_host": "",
+            "pds_aglistener_port": "",
+            "pds_database_name": "demo16991",
+            "version": "12.0",
+            "pdb_dcmode": "NATIVE",
+            "pds_use_remote": "false",
+            "remarksReporting": "false",
+            "whitelist_table": ""
+          },
+          "schema_alias_replacements": {
+            "schema_alias": "",
+            "schema_alias_replacement": ""
+          },
+          "security": {
+            "pds_use_ssl": "true",
+            "pds_ssl_sc_cn": "*.database.windows.net",
+            "pds_integrated_security": "false",
+            "pds_use_agent_stored_credential": "false"
+          },
+          "cdc": {
+            "capture_mode": "trigger",
+            "pds_ra_schema": "",
+            "_lr_maint_id": "",
+            "truncation_interval": "10",
+            "skip_lr_errors": "false",
+            "lr_max_op_queue_size": "1000",
+            "lr_max_scan_queue_size": "1000",
+            "scan_sleep_max": "2",
+            "scan_sleep_increment": "0",
+            "pds_sql_connection_pool_size": "15",
+            "pds_retry_count": "5",
+            "pds_retry_timeout": "10",
+            "prefix": "DWCKB5CA3_",
+            "conn_pool_size": "8",
+            "min_scan_interval": "0",
+            "max_scan_interval": "1",
+            "max_batch_size": "128",
+            "batch_queue_size": "64",
+            "max_transaction_count": "1000",
+            "max_scan_size": "50000",
+            "record_pk_only": "false",
+            "capture_before_after_images": "false"
+          }
+        }
+      },
+      "CredentialProperties": {
+        "credentials_mode": "technicaluser",
+        "credential": {
+          "user": "smithjo",
+          "password": "Welcome1"
+        },
+        "credential_user_only": {
+          "user": "",
+          "password": ""
+        }
+      },
+      "ConnectionFeatures": {
+        "features": {
+          "remoteTables": false,
+          "dpAgent": "",
+          "dataflows": true
+        }
+      }
+    },
+    "typeId": "AZURESQL",
+    "capabilityHanaSdi": "false",
+    "capabilityDisDataflow": "true",
+    "capabilityModelTransfer": "false"
+  }
+}
