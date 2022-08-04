@@ -16,11 +16,11 @@
           },
           "database": {
             "pds_always_on": "false",
-            "pds_server_name": "solexpdbserver.database.windows.net",
+            "pds_server_name": "dbserver.database.windows.net",
             "pds_port_number": "1433",
             "pds_aglistener_host": "",
             "pds_aglistener_port": "",
-            "pds_database_name": "demo16991",
+            "pds_database_name": "demo",
             "version": "12.0",
             "pdb_dcmode": "NATIVE",
             "pds_use_remote": "false",
@@ -66,8 +66,8 @@
       "CredentialProperties": {
         "credentials_mode": "technicaluser",
         "credential": {
-          "user": "smithjo",
-          "password": "Welcome1"
+          "user": "nottheuser",
+          "password": "NotARealPassword"
         },
         "credential_user_only": {
           "user": "",

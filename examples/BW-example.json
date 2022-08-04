@@ -13,7 +13,7 @@
             "ConnectionProperties": {
                 "ConnectionInfo": {
                     "connectionType": "applicationServer",
-                    "host": "cib4h",
+                    "host": "bw.server.com",
                     "systemnumber": "00",
                     "client": "800",
                     "sysid": "",
@@ -42,14 +42,14 @@
             "CredentialProperties": {
                 "credentials_mode": "technicaluser",
                 "user": {
-                    "user": "smithjo",
-                    "password": "Welcome1"
+                    "user": "notarealuser",
+                    "password": "NotThePassword!"
                 }
             },
             "ConnectionFeatures": {
                 "features": {
                     "remoteTables": true,
-                    "dpAgent": "SDC_GSA",
+                    "dpAgent": "SDI",
                     "streaming": "false",
                     "gwhost": "",
                     "gwserv": "",
