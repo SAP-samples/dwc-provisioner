@@ -42,6 +42,12 @@ Python 3.10.4
 ubuntu@ip-17-1-3-11:~$
 ```
 
+```
+ubuntu@ip-17-1-3-11:~$ python3 --version
+Python 3.10.4
+ubuntu@ip-17-1-3-11:~$
+```
+
 **Git**
 
 To retrieve the **provisioner** from GitHub, the command line version of Git is an easy way to download the project to a local directory. The project may also be downloaded from GitHub as a zip file using a browser.
@@ -69,6 +75,7 @@ From the home directory of the user _ubuntu_:
 ubuntu@myhostname:~$ mkdir tools
 ubuntu@myhostname:~$ cd tools
 ubuntu@myhostname:~/tools$ git clone https://github.com/SAP-samples/dwc-provisioner
+Cloning into 'dwc-provisioner'...
 ```
 
 _Windows_
@@ -165,7 +172,7 @@ To create and store information about SAP Data Warehouse Cloud in an SAP HANA Cl
 ## Provisioner Configuration
 To start using the **provisioner**, a configuration file is created to identify the target SAP Data Warehouse Cloud tenant and set the username and password values.
 
-Refer to the following sections on command syntax for additional information on the `config` command.
+Refer to the command sytax for additional information on the `config` command.
 
 ```
 c:\> cd tools\dwc-provisioner
