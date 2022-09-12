@@ -242,7 +242,7 @@ class DWCSession:
         spaces = self.get_spaces()
 
         for space in spaces:
-            if space["name"] == space_id:
+            if space["name"] == space_id or space["id"] == space_id:
                 return space["id"]
 
         return None
@@ -487,7 +487,7 @@ class DWCSession:
                 # The user asked us to delete any existing connection before
                 # re-creating the same name - delete the connection.
 
-                self.delete_connection(space_guid, conn_name)
+                self.connection_delete(space_guid, conn_name)
             else:
                 # Let the user know the connection already exists.
 
